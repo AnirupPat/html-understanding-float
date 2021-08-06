@@ -11,10 +11,6 @@
     />
     <style>
       * {
-        /* 
-        -May want to add "border-box for "box-sizing so padding does not affect width
-        -Reset margin and padding 
-       */
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -31,11 +27,6 @@
       }
 
       #container {
-        /* 
-        -Remember, margin: auto on left and right will center a block element 
-        -I would also set a "max-width" for responsiveness
-        -May want to add some padding
-        */
         max-width: 400px;
         margin: 30px auto;
         padding: 20px;
@@ -52,24 +43,15 @@
       }
 
       .form-wrap .form-group {
-        /* 
-          Each label, input is wrapped in .form-group
-        */
         margin: 10px 0px;
       }
 
       .form-wrap .form-group label {
-        /* 
-          Label should be turned into a block element
-        */
         display: block;
         color: #666;
       }
 
       .form-wrap .form-group input {
-        /* 
-          Inputs should reach accross the .form-wrap 100% and have some padding
-        */
         width: 100%;
         padding: 10px;
         border: 1px solid #ddd;
@@ -77,10 +59,6 @@
       }
 
       .form-wrap button {
-        /* 
-          Button should wrap accross 100% and display as block
-          Background color for button is #49c1a2
-        */
         display: block;
         width: 100%;
         background: #49c1a2;
